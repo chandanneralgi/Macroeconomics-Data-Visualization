@@ -25,15 +25,11 @@ This project aims to visualize macroeconomic data to provide insights into vario
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/chandanneralgi/macroeconomics-data-visualization.git
+   git clone https://github.com/chandanneralgi/Macroeconomics-Data-Visualization.git
    ```
 2. Navigate to the project directory:
    ```sh
    cd Macroeconomics-Data-Visualization
-   ```
-3. Install the required packages:
-   ```sh
-   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -48,9 +44,6 @@ This project aims to visualize macroeconomic data to provide insights into vario
 
 - `app.py`: Main application file
 - `templates/`: Contains HTML templates
-- `static/`: Contains static files such as CSS and JavaScript
-- `data/`: Contains the macroeconomic data files
-- `requirements.txt`: List of required Python packages
 
 ## Data Sources
 
