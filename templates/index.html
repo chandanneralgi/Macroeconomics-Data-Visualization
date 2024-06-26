@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macroeconomics Data Visualization</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #333333;
+        }
+        .visualization-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+        .visualization-card {
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #ffffff;
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+        .visualization-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.15);
+        }
+        .visualization-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .visualization-description {
+            font-size: 1.1rem;
+            color: #666666;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Macroeconomics Data Visualization</h1>
+        <div class="visualization-links">
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/correlation">Correlation Heatmap</a></h2>
+                <p class="visualization-description">Visualize the correlation between different variables.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/consumer_price_index_distribution">Consumer Price Index Distribution</a></h2>
+                <p class="visualization-description">View the distribution of Consumer Price Index.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/unemployment_rate_distribution">Unemployment Rate Distribution</a></h2>
+                <p class="visualization-description">Explore the distribution of Unemployment Rate.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/eurpln_vs_usdpln_scatter">EURPLN vs USDPLN Scatter Plot</a></h2>
+                <p class="visualization-description">Compare EURPLN and USDPLN in a scatter plot.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/reference_rate_nbp_line">Reference Rate NBP over Time</a></h2>
+                <p class="visualization-description">Track the Reference Rate NBP over time.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/cpi_boxplot_year">Consumer Price Index Boxplot by Year</a></h2>
+                <p class="visualization-description">See the Consumer Price Index distribution grouped by year.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="/pairplot_selected_features">Pairplot of Selected Features</a></h2>
+                <p class="visualization-description">Explore the relationships between selected numerical features.</p>
+            </div>
+            <div class="visualization-card">
+                <h2 class="visualization-title"><a href="https://colab.research.google.com/drive/1m_qy5VwF-k5AGAneuNCOzdeg1zTGeWOp?usp=sharing">Feature Importance Plot</a></h2>
+                <p class="visualization-description">View the importance of each feature in the model.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
